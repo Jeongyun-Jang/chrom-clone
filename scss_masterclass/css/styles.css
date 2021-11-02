@@ -1,0 +1,17 @@
+.grid{
+    background: grey; 
+    display: grid;
+    gap: 5px; 
+    height: 250vh;
+    grid-template-columns:repeat(4, 100px);
+    grid-template-rows:repeat(4, 100px);
+    grid-auto-rows: 100px;
+    
+}
+
+.item:nth-child(odd){
+    background: aquamarine;
+}
+.item:nth-child(even){
+    background: blue;
+}
